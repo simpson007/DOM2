@@ -1,0 +1,2 @@
+window.dom={find:function(n,e){return(e||document).querySelectorAll(n)},style:function(n,e,t){if(3===arguments.length)n.style[e]=t;else if(2===arguments.length){if("string"==typeof e)return n.style[e];if(e instanceof Object){const t=e;for(let e in t)n.style[e]=t[e]}}},children:function(n){return n.children},each:function(n,e){for(let t=0;t<n.length;t++)e.call(null,n[t])}};
+//# sourceMappingURL=index.603549b3.js.map
